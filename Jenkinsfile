@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     // Получаем исходный код из репозитория Git
-                    // git branch: 'main', url: 'https://github.com/lastinm/mlops_final.git'
+                    git branch: 'main', url: 'https://github.com/windn19/final_MLOps.git'
                 }
             }
         }
